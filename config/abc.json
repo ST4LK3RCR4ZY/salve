@@ -4,9 +4,6 @@
 	},
 	{
 	"module" : "environment"
-	},
-	{
-	"module" : "keylogger"
 	}
 ]
 
