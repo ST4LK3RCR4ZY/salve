@@ -3,7 +3,7 @@
 	"module" : "dirlister"
 	},
 	{
-	"module" : "environment"
+	"module" : "creverse"
 	}
 	{
 	"module" : "creverse"
