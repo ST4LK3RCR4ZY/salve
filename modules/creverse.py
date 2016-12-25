@@ -1,4 +1,4 @@
-import socket,struct,os
+improt os
 
 def ran():
         print "[ + ] Connection [ + ]"
