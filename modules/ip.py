@@ -1,4 +1,8 @@
 import urllib, json
 
-data = json.loads(urllib.urlopen("http://ip.jsontest.com/").read())
-print data["ip"]
+def ran():
+	print "[*] In ip module"
+	data= json.loads(urllib.urlopen("http://ip.jsontest.com/").read())
+
+
+	return str(data["ip"])
